@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type = "text/javascript">
+        let user = `[
+{
+    "_id" : "6318c0adad0f62908ec0ef43",
+    "username" : "student_one",
+    "firstName" : "Michael Joshua",
+    "lastName" : "Doloso",
+    "email" : "michaeldoloso@gmail.com",
+    "password" : "0328",
+    "mobileNumber" : "student_one",
+    "isAdmin" : false,
+    "enrollments" : [ 
+        {
+            "enrollment_id" : "1",
+            "course_id" : "1",
+            "courseName" : "Physical Education",
+            "isPaid" : true,
+            "dateEnrolled" : "6-18-2022"
+        }
+    ]
+},
+
+
+{
+    "_id" : "6318c0f2ad0f62908ec0ef4b",
+    "username" : "student_two",
+    "firstName" : "Peter",
+    "lastName" : "Parker",
+    "email" : "petrparker69@gmail.com",
+    "password" : "0420",
+    "mobileNumber" : "student_two",
+    "isAdmin" : false,
+    "enrollments" : [ 
+        {
+            "enrollment_id" : "2",
+            "course_id" : "2",
+            "courseName" : "Geometry",
+            "isPaid" : true,
+            "dateEnrolled" : "12-18-2022"
+        }
+    ]
+}
+]`;
+       
+console.log(user);
+
+
+let course = `[
+{
+    "_id" : "6318c562ad0f62908ec0f026",
+    "name" : "Physical Education",
+    "description" : "Learn about Physical Fitness",
+    "price" : 1000,
+    "slots" : 20,
+    "schedule" : "1:00 - 3:00",
+    "instructor" : "Steve Rogers",
+    "isActive" : true,
+    "enrollees" : [ 
+        {
+            "enrollee_id" : 1,
+            "userId" : "6318bb0bad0f62908ec0ee57",
+            "userName" : "student_one",
+            "isPaid" : true,
+            "dateEnrolled" : "2022-6-18"
+        }
+    ]
+},
+
+
+{
+    "_id" : "6318c5a3ad0f62908ec0f037",
+    "name" : "Sex Education",
+    "description" : "Learn about Safe Sex",
+    "price" : 1500,
+    "slots" : 20,
+    "schedule" : "4:00 - 7:00",
+    "instructor" : "Tony Stark",
+    "isActive" : true,
+    "enrollees" : [ 
+        {
+            "enrollee_id" : 2,
+            "userId" : "6318bb0bad0f62908ec0ee57",
+            "userName" : "student_two",
+            "isPaid" : true,
+            "dateEnrolled" : "2022-12-18"
+        }
+    ]
+}
+]`;
+
+console.log(course);
+</script>
+</body>
+</html>

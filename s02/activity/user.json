@@ -1,0 +1,42 @@
+[
+{
+    "_id" : "6318c0adad0f62908ec0ef43",
+    "username" : "student_one",
+    "firstName" : "Michael Joshua",
+    "lastName" : "Doloso",
+    "email" : "michaeldoloso@gmail.com",
+    "password" : "0328",
+    "mobileNumber" : "student_one",
+    "isAdmin" : false,
+    "enrollments" : [ 
+        {
+            "enrollment_id" : "1",
+            "course_id" : "1",
+            "courseName" : "Physical Education",
+            "isPaid" : true,
+            "dateEnrolled" : "6-18-2022"
+        }
+    ]
+},
+
+
+{
+    "_id" : "6318c0f2ad0f62908ec0ef4b",
+    "username" : "student_two",
+    "firstName" : "Peter",
+    "lastName" : "Parker",
+    "email" : "petrparker69@gmail.com",
+    "password" : "0420",
+    "mobileNumber" : "student_two",
+    "isAdmin" : false,
+    "enrollments" : [ 
+        {
+            "enrollment_id" : "2",
+            "course_id" : "2",
+            "courseName" : "Geometry",
+            "isPaid" : true,
+            "dateEnrolled" : "12-18-2022"
+        }
+    ]
+}
+]
